@@ -44,5 +44,5 @@ jobs:
             cd ~/app/api-rentx-rocketseat-ignite
             yarn
             ./node_modules/.bin/typeorm migration:run
-            pm2 restart renxt_api
+            pm2 restart rentx_api
       
